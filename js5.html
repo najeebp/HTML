@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fifth java project</title>
+</head>
+<body>
+<p>The best way to loop through an array is using a standard for loop:</p>
+<button type="button" onclick="myfunction()">Try it</button>
+<p id = "demo"></p>
+<script type="text/javascript">
+	text = "<ul>"
+	function myfunction(){
+		list = ['Banana','Orange','Apple','Mango'];
+		for (k in list){
+			text +="<li>" + list[k] + "</li>";
+		}
+		text +="</ul>";
+		document.getElementById("demo").innerHTML = text;
+	}
+</script>
+</body>
+</html>
+<html>
